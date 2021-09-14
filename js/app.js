@@ -1,6 +1,17 @@
+// work for enter button 
+const search = document.getElementById('input-field');
+const searchButton = document.getElementById('search-button');
+
+search.addEventListener('keypress', function (event) {
+    if ((event.key) == 'Enter') {
+        searchButton.click();
+    }
+})
+
 const loadTeam = () => {
     const inputText = document.getElementById('input-field');
     const searchText = inputText.value;
+    inputText.value = '';
     console.log(searchText);
 
     const url = `https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t=${searchText}`
