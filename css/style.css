@@ -1,0 +1,12 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+background-image: url("../images/b.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.input-text{
+    width: 50%;
+}
